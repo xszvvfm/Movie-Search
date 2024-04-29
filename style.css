@@ -1,8 +1,3 @@
-/* * {
-  background-color: beige;
-  color: blue;
-} */
-
 header {
   background-color: lightblue;
   display: flex;
@@ -10,7 +5,7 @@ header {
   align-items: center;
 }
 
-.search {
+#search {
   background-color: lightgreen;
   display: flex;
   justify-content: center;
@@ -18,17 +13,22 @@ header {
 }
 
 .movie-card {
-  background-color: beige;
+  background-color: black;
+  color: white;
+  /* margin: 0px auto 0px auto; */
   display: grid;
   justify-content: center;
-}
-
-.card {
-  border: 2px solid blue;
 }
 
 #movie-id {
+  border: 2px solid blue;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
+}
+
+.card-list {
+  border: 5px solid yellow;
+  border-radius: 5px;
+  margin: 10px;
 }
