@@ -18,6 +18,7 @@ header {
   /* margin: 0px auto 0px auto; */
   display: grid;
   justify-content: center;
+  width: 100%;
 }
 
 #movie-id {
@@ -31,4 +32,6 @@ header {
   border: 5px solid yellow;
   border-radius: 5px;
   margin: 10px;
+  width: 500px;
+  height: 1000px;
 }
